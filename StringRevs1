@@ -1,0 +1,24 @@
+String input= "Lion is the king of the forest";
+
+
+		String name[] = input.split(" ");
+		
+		
+		
+		for (String string : name) {
+			
+			
+			String rev =" ";
+			
+			
+			
+			for(int i=string.length()-1;i>=0;i--) {
+				
+				
+				rev = rev + string.charAt(i);
+				
+			}
+			
+			System.out.print(rev);
+			
+		}
